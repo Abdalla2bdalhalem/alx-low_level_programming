@@ -1,4 +1,5 @@
 #include "main.h"
+#include<stdio.h>
 
 /**
  *numlength -returns the lenght of string
