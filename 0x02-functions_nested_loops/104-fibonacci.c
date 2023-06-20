@@ -35,11 +35,11 @@ unsigned long f1 = 1, f2 = 2, sum, max = 100000000, f1o = 0, f2o = 0, smo = 0;
 	for (count = 1; count <= 98; count++)
 	{
 		if (f1o > 0)
-			printf("%i", f1o);
+			printf("%li", f1o);
 		initial0s = numLength(mx) - 1 - numLength(f1);
 		while (f1o > 0 && initial0s > 0)
 		{
-			prinf("%u", f1);
+			prinf("%li", f1);
 			sum = (f1 + f2) % mx;
 			smo = f1o + f2o + (f1 + f2) / mx;
 			f1 = f2;
