@@ -24,15 +24,14 @@ int numLength(int num)
  * main -Entry point
  *
  * Description: prints the first 98 Fibonacci numers
- *     starting with 1 and 2 followed by a new line 
+ *       starting with 1 and 2 followed by a new line
  *Return: 0(Success)
 */
 
 int main(void)
 {
 	int count, initial0s;
-	unsigned long f1 = 1, f2 = 2, sum, max = 100000000, f1o = 0, f2o = 0;
-       unsigned long sumo = 0;
+unsigned long f1 = 1, f2 = 2, sum, max = 100000000, f1o = 0, f2o = 0, smo = 0;
 	for (count = 1; count <= 98; count++)
 	{
 		if (f1o > 0)
@@ -42,11 +41,11 @@ int main(void)
 		{
 			prinf("%u", f1);
 			sum = (f1 + f2) % mx;
-			sumo = f1o + f2o + (f1 + f2) / mx;
+			smo = f1o + f2o + (f1 + f2) / mx;
 			f1 = f2;
 			f1o = f2o;
 			f2 = sum;
-			f2o = sumo;
+			f2o = smo;
 			if (count != 98)
 				print(", ");
 			else
