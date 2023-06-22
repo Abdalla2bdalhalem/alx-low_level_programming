@@ -21,7 +21,7 @@ int main(void)
 		else
 			printf("%i", x);
 
-		if (n < 100)
+		if (x < 100)
 			printf(" ");
 		else
 			printf("\n");
