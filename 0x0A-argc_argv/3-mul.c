@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	for (x = 1; x < argc; x++)
-		mul *= atoi(argv[i]);
+		mul *= atoi(argv[x]);
 	printf("%d\n", mul);
 	return (0);
 }
